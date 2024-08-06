@@ -10,25 +10,15 @@ Aplicar los conceptos aprendidos en clases para realizar el análisis de un data
 - **02_Limpieza_de_Datos.ipynb**: Limpieza en base al análisis anterior.
 - **03_Creacion_de_Variables.ipynb**: Creación de nuevas variables a partir de las existentes.
 - **04_Visualizacion.ipynb**: Visualizaciones que muestran los resultados del análisis.
+- **scripts/train_model.py**: Script para entrenar el modelo de predicción de precios de casas.
+- **scripts/evaluate_model.py**: Script para evaluar el modelo entrenado.
+- **tests/test_data.py**: Pruebas unitarias para asegurar la calidad del dataset.
 
 ### Propuesta de Aplicación Práctica:
 Utilizando los hallazgos del análisis, proponemos una estrategia de inversión inmobiliaria que se enfoque en propiedades con características específicas (como espacio total y edad) para maximizar el retorno de inversión.
 
-#### Implementación:
-1. **Recopilación de datos de propiedades**: Utilizar fuentes confiables para obtener datos actualizados de propiedades en venta.
-2. **Análisis predictivo**: Desarrollar un modelo predictivo utilizando técnicas de machine learning para identificar propiedades subvaluadas.
-3. **Modelo de recomendación**: Crear un sistema de recomendación que sugiera las mejores oportunidades de inversión basándose en los resultados del análisis predictivo.
-
-#### Desafíos y Beneficios:
-- **Desafíos**: La variabilidad del mercado inmobiliario y la disponibilidad de datos actualizados.
-- **Beneficios**: Identificación de oportunidades de inversión con alto potencial de retorno.
-
-### Requisitos:
-- Python 3.8+
-- Librerías: pandas, numpy, matplotlib, seaborn, scikit-learn, jupyter
-
-### Instalación:
+### Instrucciones para Ejecutar el Proyecto:
 1. Clonar el repositorio:
    ```sh
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/SanMaBruno/House-Prices-Analysis.git
    cd House-Prices-Analysis
